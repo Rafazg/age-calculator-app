@@ -33,7 +33,7 @@ main {
     position: absolute;
     width: 53%;
     border: 1px solid;
-    top: 200px;
+    top: 270px;
     color: hsl(0, 1%, 44%);
 }
 .image-container{
@@ -44,7 +44,7 @@ main {
     overflow: hidden;
     width: 100px;
     height: 100px;
-    top: 150px;
+    top: 220px;
     margin-left: 540px;
     border: 2px solid;
     border-radius: 50px;
