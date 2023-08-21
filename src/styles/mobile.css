@@ -1,0 +1,136 @@
+@media (max-width: 375px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: 0;
+      }
+      
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:  hsl(0deg 0% 75.51%);
+        width: 55vh;
+        height: 150vh;
+      }
+      
+      main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        border-bottom-right-radius: 50%;
+        background-color: hsl(0, 0%, 100%);
+        width: 90%;
+        height: 80%;
+        margin: 20px auto;
+      }
+      
+      #divider {
+        position: absolute;
+        width: 75%;
+      }
+      
+      #image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 80px;
+        margin-top: 0px;
+        margin-left: 0px;
+        border: 2px solid;
+        border-radius: 40px;
+        background-color: hsl(259, 100%, 73%);
+      }
+      
+      #image-container img {
+        width: 50px;
+        height: 50px;
+      }
+      
+      #forms-container {
+        width: 95%;
+        margin-bottom: 130px;
+      }
+      
+      #input-legends {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      #day{
+        margin-left: -130px;
+        font-family: 'Poppins', sans-serif;
+        color:  hsl(0, 1%, 44%);
+        font-size: 11px;
+    }
+    #month{
+        position: absolute;
+        margin-left: 45px;
+        font-family: 'Poppins', sans-serif;
+        color:  hsl(0, 1%, 44%);
+        font-size: 11px;
+    }
+    #year{
+        position: absolute;
+        margin-left: 220px;
+        font-family: 'Poppins', sans-serif;
+        color:  hsl(0, 1%, 44%);
+        font-size: 11px;
+    }
+      
+      #text-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin-left: -280px;
+        top: 240px;
+        border-radius: 10px;
+      }
+      
+      #days,
+      #months,
+      #years {
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+      }
+      
+      #daysNumber,
+      #monthsNumber,
+      #yearsNumber {
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        color: hsl(259, 100%, 65%);
+      }
+      
+      #forms {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-left: 0;
+        height: 110px;
+      }
+      
+      input {
+        text-align: center;
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        color: hsl(0, 0%, 8%);
+        border: 3px solid hsl(0, 0%, 86%);
+      }
+      
+      .attribution {
+        margin-top: 20px;
+        font-size: 12px;
+      }
+      
+}
