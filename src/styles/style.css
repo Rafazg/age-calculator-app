@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: hsl(0, 0%, 94%);
+  background-color:  hsl(0deg 0% 75.51%);
   width: 100%;
   height: 100vh;
 }
@@ -33,27 +33,29 @@ main {
     position: absolute;
     width: 53%;
     border: 1px solid;
-    top: 220px;
+    top: 280px;
     color: hsl(0, 1%, 44%);
 }
-#image-container{
+.image-container{
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    width: 80px;
-    height: 80px;
-    top: 180px;
+    width: 100px;
+    height: 100px;
+    top: 230px;
     margin-left: 540px;
     border: 2px solid;
-    border-radius: 40px;
+    border-radius: 50px;
     background-color: hsl(259, 100%, 73%);
 }
-#image-container img{
+.image-container img{
     width: 50px;
     height: 50px;
 }
+
+
 
 #forms-container {
   position: relative;
@@ -100,11 +102,10 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-left: 40px;
+  margin-left: 250px;
   width: 45%;
   height: 50%;
-  bottom: 70px;
-  left: 280px;
+  bottom: 120px;
   border-radius: 10px;
   
 }
