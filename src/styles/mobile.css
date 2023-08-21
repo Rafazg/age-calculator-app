@@ -30,6 +30,7 @@
       #divider {
         position: absolute;
         width: 75%;
+        top: 250px;
       }
       
       .image-container {
@@ -38,7 +39,7 @@
         align-items: center;
         width: 80px;
         height: 80px;
-        margin-top: 0px;
+        margin-top: 60px;
         margin-left: 0px;
         border: 2px solid;
         border-radius: 40px;
